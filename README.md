@@ -2,6 +2,8 @@
 
 A demo project to test the compatibility between React Native Web and React Native Skia using an Expo managed workflow.
 
+The demo is hosted here: [react-native-web-skia-demo.netlify.app](https://react-native-web-skia-demo.netlify.app/)
+
 ## Instructions
 
 ### Setting up a Development Environment
