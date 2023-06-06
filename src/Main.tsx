@@ -1,15 +1,17 @@
-import { View, Text } from "react-native";
+import { Button, Platform, Text, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context"
-import { CanvasContainer } from "src/components"
 
-// import { WithSkiaWeb } from '@shopify/react-native-skia/lib/module/web';
+// Notice the import path `@shopify/react-native-skia/lib/module/web`
+// This is important only to pull the code responsible for loading Skia.
+import { WithSkiaWeb } from "@shopify/react-native-skia/lib/module/web";
 
 const Main = () => {
     return (
         <SafeAreaProvider>
-            <View className="flex-1 justify-center">
-                <CanvasContainer />
-            </View>
+            <WithSkiaWeb
+                getComponent={() => import("src/components/MySkiaComponent")}
+                fallback={<Text>Loading Skia...</Text>}
+            />
         </SafeAreaProvider>
     );
 }

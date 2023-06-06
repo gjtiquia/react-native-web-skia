@@ -1,11 +1,6 @@
-import { Text } from "react-native";
 import { Canvas, Circle, Group } from "@shopify/react-native-skia";
 
 const MySkiaComponent = () => {
-    // return (
-    //     <Text>Test</Text>
-    // )
-
     const size = 256;
     const r = size * 0.33;
     return (
