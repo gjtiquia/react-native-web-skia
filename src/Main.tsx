@@ -1,14 +1,14 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context"
-import { HelloWorld } from "src/components"
+import { CanvasContainer } from "src/components"
+
+// import { WithSkiaWeb } from '@shopify/react-native-skia/lib/module/web';
 
 const Main = () => {
     return (
         <SafeAreaProvider>
             <View className="flex-1 justify-center">
-                <View className="h-4/6">
-                    <HelloWorld />
-                </View>
+                <CanvasContainer />
             </View>
         </SafeAreaProvider>
     );
