@@ -1,5 +1,5 @@
 import { Text } from "react-native";
-import { MySkiaComponent } from "src/components";
+import MySkiaComponent from "../MySkiaComponent";
 
 const CanvasContainer = () => {
     return (
