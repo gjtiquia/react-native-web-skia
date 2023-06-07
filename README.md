@@ -43,3 +43,13 @@ npx serve web-build
 Follow the on-screen instructions to test locally how the app works in production.
 
 Read [here](https://docs.expo.dev/distribution/publishing-websites/) for more documentation on creating web apps with Expo.
+
+### Creating an Android APK Build with EAS Build
+
+First follow the setup steps according to the [Expo documentation](https://docs.expo.dev/build/setup/).
+
+Then run the following command
+
+```bash
+eas build -p android --profile development
+```
