@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-web-template",
-    "slug": "react-native-web-template",
+    "name": "react-native-web-skia-demo",
+    "slug": "react-native-web-skia-demo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gjtiquia.reactnativewebskiademo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f642366b-bc9f-4c14-8224-901eab608c1f"
+      }
     }
   }
 }
