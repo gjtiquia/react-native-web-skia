@@ -4,6 +4,8 @@ A demo project to test the compatibility between React Native Web and React Nati
 
 The demo is hosted here: [react-native-web-skia-demo.netlify.app](https://react-native-web-skia-demo.netlify.app/)
 
+An Android APK build is available for download here: [EAS Build - Android internal distribution build](https://expo.dev/accounts/gjtiquia/projects/react-native-web-skia-demo/builds/4f5dfac6-b47d-4ce5-848a-fb747cd1b98c)
+
 ## Instructions
 
 ### Setting up a Development Environment
