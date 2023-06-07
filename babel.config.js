@@ -24,6 +24,8 @@ module.exports = function (api) {
           '.json',
         ],
       }],
+      '@babel/plugin-proposal-export-namespace-from',
+      'react-native-reanimated/plugin',
     ],
   };
 };
